@@ -1,0 +1,140 @@
+
+     *{
+       box-sizing: border-box;
+     }
+     h1{
+       text-align: center;
+       font-family: cursive;
+     }
+     .cleardiv{
+       clear: both;
+     }
+     
+     .para{
+        padding: 20px;
+        text-align: justify;
+     }
+     .container{
+       background-color: aliceblue;
+       width:95%;
+       margin:0 auto;
+     }
+     @media (min-width:992px){
+      .menu1{
+         
+         width:33.33%;
+         background-color: antiquewhite;
+         float: left;
+         border: 20px solid aliceblue;
+        
+     }
+     .menu2{
+         
+         width:33.33%;
+         background-color: antiquewhite;
+         float: left;
+         border: 20px solid aliceblue;
+         
+         
+
+
+
+      }
+      .menu3{
+        
+         width:33.33%;
+         background-color: antiquewhite;
+         float: left;
+         border: 20px solid aliceblue;
+         
+      }
+      .title{
+        float:right;
+        color:white;
+        width:40%;
+        background-color: red;
+        text-align: center;
+        font-size: larger;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+
+      }
+     }
+     @media (min-width:768px) and (max-width:991px){
+      .menu1{
+        
+        width:50%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+    }
+    .menu2{
+        
+        width:50%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+
+
+
+     }
+     .menu3{
+       
+        width:100%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+     }
+     .title{
+      float:right;
+      color:white;
+      width:40%;
+      background-color: red;
+      text-align: center;
+      font-size: larger;
+      padding: 5px;
+      border-bottom: 2px solid black;
+      border-left: 2px solid black;
+
+    }
+    }
+
+     @media  (max-width:767px){
+      .menu1{
+        
+        width:100%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+    }
+    .menu2{
+        
+        width:100%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+
+
+
+     }
+     .menu3{
+       
+        width:100%;
+        background-color: antiquewhite;
+        float: left;
+        border: 20px solid aliceblue;
+     }
+     .title{
+      float:right;
+      color:white;
+      width:40%;
+      background-color: red;
+      text-align: center;
+      font-size: larger;
+      padding: 5px;
+      border-bottom: 2px solid black;
+      border-left: 2px solid black;
+
+    }
+    }
